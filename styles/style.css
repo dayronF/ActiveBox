@@ -662,3 +662,138 @@ footer {
     width: 60%;
   }
 }
+
+
+/* Telefonos */
+@media (max-width: 480px) {
+  header {
+    height: 60vh;
+  }
+
+  .centrado {
+    width: 95%;
+  }
+
+  .navegacion {
+    width: 90vw;
+    font-size: 9px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .texto h1 {
+    font-size: 22px;
+  }
+
+  .texto p {
+    font-size: 12px;
+  }
+
+  .texto button {
+    width: 45vw;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card-dising {
+    width: 80vw;
+  }
+
+  .collage-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+
+  .overlay-text {
+    font-size: 18px;
+  }
+
+  .persons-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .persons {
+    width: 80vw;
+  }
+
+  .about-text h2 {
+    font-size: 18px;
+    width: 90vw;
+  }
+
+  .about-text p {
+    font-size: 11px;
+  }
+
+  .download h5 {
+    font-size: 20px;
+  }
+
+  .download p {
+    font-size: 13px;
+  }
+
+  .download button {
+    width: 55vw;
+  }
+
+  .social-media {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 8%;
+  }
+
+  .pie {
+    width: 85%;
+  }
+}
+
+
+@media (max-width: 360px) {
+  header {
+    height: 55vh;
+  }
+
+  .texto h1 {
+    font-size: 18px;
+  }
+
+  .texto p {
+    font-size: 11px;
+  }
+
+  .texto button {
+    width: 55vw;
+    font-size: 12px;
+  }
+
+  .card-dising {
+    width: 90vw;
+  }
+
+  .collage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .persons {
+    width: 90vw;
+  }
+
+  .about-text h2 {
+    font-size: 16px;
+  }
+
+  .download button {
+    width: 65vw;
+  }
+
+  .pie {
+    width: 95%;
+  }
+}
