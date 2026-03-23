@@ -486,3 +486,62 @@ footer {
 .pie p {
   color: rgb(172, 172, 172);
 }
+
+
+/* Tablets grandes */
+@media (max-width: 1024px) {
+  .centrado {
+    width: 85%;
+  }
+
+  .texto h1 {
+    font-size: 38px;
+  }
+
+  .texto p {
+    font-size: 15px;
+  }
+
+  .texto button {
+    width: 18vw;
+  }
+
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card-dising {
+    width: 28vw;
+  }
+
+  .collage-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .persons-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .persons {
+    width: 20vw;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+    width: 40vw;
+  }
+
+  .download button {
+    width: 22vw;
+  }
+
+  .social-media {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .pie {
+    width: 40%;
+  }
+}
