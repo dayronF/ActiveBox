@@ -545,3 +545,120 @@ footer {
     width: 40%;
   }
 }
+
+
+@media (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+
+  .centrado {
+    width: 90%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navegacion {
+    width: 80vw;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .texto h1 {
+    font-size: 30px;
+  }
+
+  .texto p {
+    font-size: 14px;
+  }
+
+  .texto button {
+    width: 28vw;
+    padding: 12px;
+  }
+
+  .menu {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .card-dising {
+    width: 38vw;
+  }
+
+  .collage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rols {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .persons-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 30px;
+  }
+
+  .persons {
+    width: 38vw;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .ima {
+    height: 40vh;
+  }
+
+  .about-text {
+    padding: 8%;
+  }
+
+  .about-text h2 {
+    font-size: 22px;
+    width: 80vw;
+  }
+
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .download {
+    padding: 8%;
+  }
+
+  .download h5 {
+    font-size: 24px;
+  }
+
+  .download button {
+    width: 35vw;
+  }
+
+  .cen {
+    height: auto;
+  }
+
+  .social-media {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 6%;
+  }
+
+  .pie {
+    width: 60%;
+  }
+}
